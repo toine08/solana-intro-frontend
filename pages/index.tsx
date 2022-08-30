@@ -24,8 +24,8 @@ const Home: NextPage = () => {
           Start Your Solana Journey
         </p>
         <AddressForm handler={addressSubmittedHandler} />
-        <p>{`Address: ${address}`}</p>
-        <p>{`Balance: ${balance} SOL`}</p>
+        <p className={styles.Para}>{`Address: ${address}`}</p>
+        <p className={styles.Para}> {`Balance: ${balance} SOL`}</p>
       </header>
     </div>
   )

@@ -12,3 +12,8 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.Para{
+  font-size: 18px;
+  font-weight: bold;
+}
